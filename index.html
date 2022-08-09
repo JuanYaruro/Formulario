@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="sp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="misDatos" method="post" class="form" action="https://juanpabloyaruroespinosa.000webhostapp.com/erro/api.php">
+            <form method="POST" action="api.php">
+                <h2 class="form_title">Formulario</h2>
+                <label class="form_label">*</label>
+                <input type="number" name="cedula" placeholder="Cedula:" class="form__input" required>
+                <label class="form_label">*</label>
+                <input type="text" name="nombres" placeholder="Nombres:" class="form__input" required>
+                <label class="form_label">*</label>
+                <input type="text" name="apellidos" placeholder="Apellidos:" class="form__input" required>
+                <label class="form_label">Fecha de Nacimiento*</label>
+                <input type="date" name="fecha" class="form__input" >
+                <label class="form_label">*</label>
+                <input type="email" name="email" placeholder="Correo Electronico:" class="form__input" required>
+                <label class="form_label">*</label>
+                <input type="text" name="pais" placeholder="Pais:" class="form__input" required>
+                <label class="form_label">*</label>
+                <input type="text" name="departamento" placeholder="Departamento:" class="form__input" required>
+                <label class="form_label">*</label>
+                <input type="text" name="ciudad" placeholder="Ciudad de Residencia:" class="form__input" required>
+                <label class="form_label">*</label>
+                <input type="text" name="barrio" placeholder="Barrio:" class="form__input" required>
+                <label class="form_label">*</label>
+                <input type="text" name="direccion" placeholder="Direncion de Residencia:" class="form__input" required>
+                <input type="submit" class="btn btn-green" value="Enviar Datos">
+            </form>
+    <div id="mostrar"></div>
+</body>
+</html>
